@@ -39,11 +39,11 @@ h1 {
   
 
 button {
-  width: 24px;
-  height: 24px;
+  width: 34px;
+  height: 34px;
   margin-right: 16px;
-  position: fixed;
-  right: 5%;
+  position: relative;
+  /*left: 5%;*/
 }
 
 #sidebar {
