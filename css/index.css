@@ -1,0 +1,94 @@
+* {
+  transition: all 0.5s;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Helvetica', 'Verdana', 微軟正黑體;
+}
+html {
+  overflow: hidden; }
+body {
+  background: #ececec;
+}
+
+.header {
+  width: 100%;
+  height: 56px;
+  color: #FFF;
+  background: #3F51B5;
+  position: fixed;
+  font-size: 36px;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 2px 9px 1px rgba(0, 0, 0, 0.12), 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+  padding: 16px ;
+  display: flex;
+/*   text-align: center; */
+  align-items: center;
+}
+
+h1 {
+/*   width: 500px; */
+/*   height: 10px; */
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+}
+  
+
+button {
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+  position: fixed;
+  right: 5%;
+}
+
+#sidebar {
+  position: absolute;
+  background: #FAFAFA;
+  width: 0px;
+  height: 100%;
+  overflow: hidden;
+  box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
+}
+
+#sidebarRight{
+  /*border: 1px solid #000;*/
+  color:red;
+  position: fixed;
+  top: 0;
+  right: 0%;
+  width: 70%;
+  height: 100%;
+  pointer-events: none;
+  display:none;
+}
+
+/*
+.sidebarAppear {
+  width: 304px;
+  background-color: red
+}*/
+
+.img {
+  width: 100%;
+  height: 171px;
+  position: relative;
+  background-color: #ccc;
+}
+
+.topic {
+  height: 48px;
+  padding-left: 72px;
+  width: 100%;
+  text-align: left;
+  display: block;
+  border: none;
+  color: rgba(0,0,0,.87);
+  cursor: pointer;
+  
+  margin: 15px;
+}
